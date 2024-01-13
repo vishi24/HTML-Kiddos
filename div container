@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mydiv {
+          width: 33%;
+          display: inline-block;
+          background-color: brown;
+        }
+        .mydiv50 {
+          width: 49.5%;
+          height: 200px;
+          display: inline-block;
+          background-color: rgb(52, 165, 42);
+        }
+        table, th, td {
+  border:1px solid black;
+}
+
+        
+        </style>
+</head>
+<body>
+    <div>
+        <img src="image.jpg" width="100%" height="200px">
+    </div>
+    <div class="mydiv">
+        <table>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+        </table>
+    </div>
+    <div class="mydiv">
+        <table>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+        </table>
+    </div>
+    <div class="mydiv">
+        <table>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+        </table>
+    </div>
+    <div class="mydiv50">
+        <ol>
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+           
+        </ol>
+    </div>
+    <div class="mydiv50">
+        <ul>
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Bread</li>
+        </ul>
+    </div>
+</body>
+</html>
