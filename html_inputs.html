@@ -73,37 +73,56 @@ Online HTML, CSS and JavaScript editor to run code online.
      </tr>
      <tr>
        <td>number</td>
-       <td></td>
+       <td><input type="number" min=2 max=10> It defines numerical field and we can restrictions also.</td>
      </tr>
      <tr>
        <td>password</td>
+       <td><input type="password"> Defines password field, input is masked.</td>
      </tr>
      <tr>
        <td>radio</td>
+       <td>Used when there are limited number of choices for user.</td>
      </tr>
      <tr>
        <td>range</td>
+       <td><input type="range" min="0" max="50" step="3" oninput="this.nextElementSibling.value = this.value"><output>24</output> &nbsp;Used to define range for input that user can put in</td>
      </tr>
      <tr>
        <td>reset</td>
+       <td><form action="#">
+  <label for="fname">First name:</label><br>
+  <input type="text"><br>
+    <label for="fname">Last name:</label><br>
+  <input type="text"><br>
+    <label for="fname">Your website:</label><br>
+    <input type="url">
+  <input type="submit" value="submit">
+  <input type="reset" value="Reset">
+</form></td>
      </tr>
      <tr>
        <td>search</td>
+       <td>Specify search field , looks similar to input box</td>
      </tr>
      <tr>
        <td>submit</td>
+       <td>Submit the form, to the URL mentioned in form action.</td>
      </tr>
      <tr>
        <td>tel</td>
+       <td>Used to define a field that takes telephone as input.</td>
      </tr>
      <tr>
        <td>time></td>
+       <td><input type="time">Used to take time as input from user</td>
      </tr>
      <tr>
        <td>url</td>
+       <td><input type="url"> Validates the input of the user for url</td>
      </tr>
      <tr>
        <td>week</td>
+       <td><input type="week"></td>
      </tr>
      </table>
   </p>
