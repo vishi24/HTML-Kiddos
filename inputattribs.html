@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <style>
+    tr,td{
+    border: 1px solid;
+    padding: 2px
+    }
+  </style>
+  </head>
+<body>
+
+<h1>The input value attribute</h1>
+
+<p>The value attribute specifies an initial value for an input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Abhishek"><br>
+  <input type="text" id="fname" name="fname" value="Abhishek" readonly><br>
+    <input type="text" id="fname" name="fname" value="Disabled" disabled><br>
+      <input type="button" value="Don't Click" disabled >
+    <br>
+      <input type="text" id="zipcode" name="zipcode" size="8" maxlength="5"><br>
+        <input type="number" min= 5 and max=10><br>
+       <input type="date" min="2024-01-15"  max="2024-02-04"><br>
+         <input type="file" multiple><br>
+           <input type="text" pattern="[A-Za-z]{3}" ><br>
+
+  <input type="submit"   value="Submit">
+</form>
+    <table>
+      <tr>
+        <td>value</td>
+      <td>Used to provide default value to text input type</td>
+      </tr>
+       <tr>
+        <td>readonly</td>
+      <td>A read-only input field cannot be modified</td>
+      </tr>
+       <tr>
+        <td>disabled</td>
+      <td>A disabled input field is unusable and un-clickable. The value of<br> disabled field is not sent when the form is submitted.</td>
+      </tr>
+       <tr>
+        <td>size</td>
+      <td>Used to define the visual size of input area.<br> It is applicable to text, search, tel, url, email, and password</td>
+      </tr>
+         <tr>
+        <td>maxlength</td>
+      <td>Used to restrict the maximum number of characters that can be entered.</td>
+      </tr>
+         <tr>
+        <td>min/max</td>
+      <td>Used to restrict minimum and maximum value and can be applied to number and date.</td>
+      </tr>
+         <tr>
+        <td>multiple</td>
+      <td>Used with file input type, allows user to uplosd multiple files at once.</td>
+      </tr>
+         <tr>
+        <td>pattern</td>
+      <td>Used to define a pattern for input, validated on submit by the browser against the defined pattern<br> Can be used with text, date, search, url, tel, email, and password.</td>
+      </tr>
+         <tr>
+        <td></td>
+      <td></td>
+      </tr>
+      <table>
+
+</body>
+</html>
