@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #0cc039;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+
+        nav {
+            float: left;
+            width: 20%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #097e11;
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 80%;
+            background-color: #94e46d;
+            height: 300px;
+
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #83542c;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header>
+        <h2>Animals</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Lion</a></li>
+                <li><a href="#">Tiger</a></li>
+                <li><a href="#">Chimpanzee</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Lion</h1>
+            <p>Lion is king of the jungle.</p>
+            <p>He rules the kingdom.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>This is made with HTML by Rishi Soni</p>
+    </footer>
+
+</body>
+
+</html>
