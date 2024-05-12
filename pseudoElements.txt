@@ -1,0 +1,7 @@
+::before: This pseudo-element inserts content before the content of the selected element. It's often used to add decorative elements or icons.
+::after: Similar to ::before, but inserts content after the content of the selected element.
+::first-line: Selects the first line of text within a block-level element. You can use it to apply styles specifically to the first line of text.
+::first-letter: Selects the first letter of the first line of text within a block-level element. It's commonly used for drop caps or other decorative effects.
+::selection: Applies styles to the portion of an element that is selected by the user. You can use it to style selected text or other selected content.
+::placeholder: Applies styles to the placeholder text of an input or textarea element.
+::marker: Applies styles to the marker of a list item. This pseudo-element is typically used to style list item bullets or numbers.
