@@ -1,0 +1,26 @@
+/* styles.css */
+
+ 
+  /* Insert a decorative element after the paragraph */
+  .box p::after {
+    content: "!!!!!!!";
+    margin-left: 15px;
+  }
+  
+  /* Style the first line of the paragraph */
+  .box p::first-line {
+    font-weight: bold;
+  }
+  
+  /* Style the first letter of the paragraph */
+  .box p::first-letter {
+    font-size: 200%;
+    color: red;
+  }
+  
+  /* Style the selection */
+  ::selection {
+    background-color: rgb(74, 143, 234);
+    color: black;
+  }
+  

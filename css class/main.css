@@ -1,0 +1,7 @@
+/* main.css */
+@import url('style.css');
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Shadow Example</title>
+    <style>
+      /* text-shadow: h-shadow v-shadow blur-radius color; */
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 25px;
+      }
+      .basic-shadow {
+        text-shadow: 4px 3px 5px rgb(197, 27, 27);
+      }
+
+      .multiple-shadows {
+        text-shadow: 1px 1px 2px black, 2px 2px 3px red, 3px 3px 4px blue;
+      }
+
+      .no-blur {
+        text-shadow: 3px 3px 0px black;
+      }
+
+      .negative-offset {
+        text-shadow: -2px -2px 5px green;
+      }
+
+      .color-shadow {
+        text-shadow: 2px 2px 5px rgba(36, 59, 207, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Text Shadow Example</h1>
+    <p class="basic-shadow">This text has a basic shadow with a blur.</p>
+    <p class="multiple-shadows">
+      This text has multiple shadows in different colors.
+    </p>
+    <p class="no-blur">This text has a shadow with no blur (sharp shadow).</p>
+    <p class="negative-offset">This text has a shadow with negative offsets.</p>
+    <p class="color-shadow">
+      This text has a shadow with a semi-transparent color.
+    </p>
+  </body>
+</html>

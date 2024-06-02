@@ -1,0 +1,53 @@
+CSS font properties allow you to control the appearance and style of text in your web documents. 
+
+font-family
+font-weight
+font-stretch
+font-style
+font-size
+
+1. font-family- This property specifies the typeface to be used for an element's text. You can list multiple font families as a fallback system, in case the preferred font is not available on the user's device.
+
+
+2. font-weight- This property sets the thickness of the font. Common values are normal, bold, bolder, lighter, or numerical values ranging from 100 to 900.
+
+3. font-stretch- Allows to choose a narrow or wide face of the font, if available.
+This is important: the font must be equipped with different faces.
+Values allowed are, from narrower to wider
+
+4. font-style - The font-style property is mostly used to specify italic text.
+
+This property has three values:
+
+normal - The text is shown normally
+italic - The text is shown in italics
+oblique - The text is "leaning" (oblique is very similar to italic, but less supported)
+
+5 font-size - This property controls the size of the font. You can specify the size using different units like pixels (px), ems (em), rems (rem), percentages (%), and more.
+
+
+
+Text
+
+text-align
+text-align-last
+direction
+unicode-bidi
+vertical-align
+
+text-align- The text-align property is used to set the horizontal alignment of a text.
+
+A text can be left or right aligned, centered, or justified.
+
+text-align-last - The text-align-last property specifies how to align the last line of a text.
+
+
+text-decoration - The text-decoration property in CSS is used to add decorations to text such as underlines, overlines, line-throughs, and also controls the style and color of these lines. 
+
+text-transform - The text-transform property is used to specify uppercase and lowercase letters in a text.
+
+text-spacing - In CSS, text spacing can be controlled using several properties to adjust the spacing between characters, words, and lines. These properties help improve the readability and visual appeal of text on a webpage.
+
+text-shadow - The text-shadow property in CSS is used to add shadow effects to text. This property allows you to create various shadow effects by specifying the horizontal and vertical offsets, blur radius, and shadow color.
+
+text-shadow: h-shadow v-shadow blur-radius color;
