@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      input {
+        margin: 10px 0;
+        padding: 8px;
+        background-color: rgb(228, 221, 190);
+      }
+      button {
+        margin: 10px 0;
+        padding: 8px;
+        background-color: rgb(128, 229, 138);
+        border-radius: 15px;
+      }
+      #result {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #333;
+      }
+    </style>
+
+    <script>
+      function writeAboutMe() {
+        let name = document.getElementById("name").value;
+        let color = document.getElementById("color").value;
+        let animal = document.getElementById("animal").value;
+
+        // const result = `Hello, my name is ${name}. My favorite color is ${color}, and my favorite animal is the ${animal}.`;
+
+        const result =
+          "Hello, my name is " +
+          name +
+          ". My favorite color is " +
+          color +
+          " and my favorite animal is the " +
+          animal +
+          ".";
+
+        document.getElementById("result").innerHTML = result;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Tell Us About You</h1>
+
+    <label>Name:</label><br />
+    <input type="text" id="name" placeholder="Enter your name" /><br />
+
+    <label>Favorite Color:</label><br />
+    <input
+      type="text"
+      id="color"
+      placeholder="Enter your favorite color"
+    /><br />
+
+    <label>Favorite Animal:</label><br />
+    <input
+      type="text"
+      id="animal"
+      placeholder="Enter your favorite animal"
+    /><br />
+    <br />
+
+    <button onclick="writeAboutMe()">Write about me</button>
+    <br />
+    <div id="result">This is the result</div>
+  </body>
+</html>
