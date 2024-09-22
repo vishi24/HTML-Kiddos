@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      // Define a JavaScript object
+      var person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 30,
+
+        // Method to return full name
+        fullName: function () {
+          return this.firstName + " " + this.lastName;
+        },
+
+        // Method to return person's age
+        getAge: function () {
+          return this.age;
+        },
+      };
+      //   Adding new property to existing object
+      person.address = "US";
+
+      // Function to display object properties
+      function displayPersonInfo() {
+        var info =
+          "First Name: " +
+          person.firstName +
+          "<br>" +
+          "Last Name: " +
+          person["lastName"] +
+          "<br>" +
+          "Full Name: " +
+          person.fullName() +
+          "<br>" +
+          "Age: " +
+          person.getAge() +
+          "<br>" +
+          "Address: " +
+          person.address;
+        document.getElementById("personInfo").innerHTML = info;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript Object Example</h1>
+
+    <button onclick="displayPersonInfo()">Show Person Info</button>
+
+    <p id="personInfo"></p>
+  </body>
+</html>
