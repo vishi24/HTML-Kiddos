@@ -1,0 +1,117 @@
+
+https://www.programiz.com/online-compiler/3YuTp6RCctVIz
+#15-16 March
+# Replacing elements to list
+# myList = ["Alesh" , "Hadi" , "Vihan" , "Mushfiq"]
+# myList[1:3] = ["Arnab" , "Jignesh"] #--> ['Alesh', 'Arnab', 'Jignesh', 'Mushfiq']
+
+
+
+#Index in list begins with 0
+# Starting index is included , end index is not included when we use range of indexes
+# myList = ["Alesh" , "Hadi" , "Vihan" , "Mushfiq"]
+
+# print(myList[1:3]) #--> Hadi , Vihan
+# print(myList[2:]) #--> Vihan, Mushfiq
+# print(myList[:2]) #--> Alesh , hadi
+
+# #Check if the element is part of list
+# if "Alesh" in myList:
+    # print("Alesh is a student")
+#Check if element is not part of the list
+# if "Amar" not in myList:
+#     print("Amar is not my student")
+# 
+
+
+#ADDING ITEMS TO THE LIST
+# To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+
+# myList.insert(2,"Arnab") 
+# print(myList) #-->['Alesh', 'Hadi', 'Arnab', 'Vihan', 'Mushfiq']
+
+# To add an item to the end of the list, use the append() method:
+# myList.append("Kyle")
+# print(myList)
+
+# extend() -> To append elements from another list to the current list, use the extend() method. *extend can be used to add any iterable data structure (set , tuple, dictionaries)
+# yourList = ["Mike" , "John" ,"Elizabeth"]
+
+# myList.extend(yourList)
+
+# REMOVING / DELETING items from the list
+
+# remove() -->The remove() method removes the specified item
+# *removes only the first occurence of the item
+# print(myList)
+# myList.remove("Mike")
+# print(myList)
+
+# pop() - The pop() method removes the specified index.
+# print(myList)
+# # myList.pop(5) #-->John removed
+# myList.pop() #-->Removes the last item from the list
+# print(myList)
+
+
+#del() -->removes the specified index
+# print(myList)
+# del myList[5] #-->John removed
+# del myList #-->Deletes complete list
+# myList.pop() #-->Removes the last item from the list
+# print(myList)
+
+#clear() --> The clear() method empties the list.
+# The list still remains, but it has no content.
+# print(myList)
+# myList.clear()
+# print(myList)
+
+
+# LOOP in List
+# You can loop through the list items by using a for loop:
+numList = [111,12,35,24,55]
+
+# for item in numList :
+#   print(item + 10)
+  
+# Loop using Index
+# for i in range(len(numList)):
+#     print(numList[i])
+
+# Loop list using while loop
+
+# i=0
+# while i < len(numList) :
+#   print(numList[i])
+#   i = i + 1
+
+# SORTING List
+# List objects have a sort() method that will sort the list alphanumerically, ascending, by default: 
+# sort function is case-sensitive
+alphaList = ["a","X","D","M","T"]
+# print(numList)
+# # numList.sort()
+# # print(numList)
+# # print(alphaList)
+# # alphaList.sort()
+# # print(alphaList)
+# numList.sort(reverse = True) #Sorting in descending order
+# print(numList)
+def custom(n):
+   return( n%2 ) #check number is odd or even
+   
+ 
+numList.sort(key = custom) 
+# numList.sort(reverse=True)
+print(numList)
+
+
+   
+
+
+
+
+
+
+
